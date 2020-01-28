@@ -30,8 +30,8 @@ function addZero(number){
 function setGreeting(){
     let today = new Date();
     let hour = today.getHours();
-
-    if(hour <= 12)
+    
+    if(hour > 6 && hour <= 12)
     {
         //Morning
         greeting.textContent = 'Good morning';
